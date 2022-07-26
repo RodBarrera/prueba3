@@ -68,7 +68,7 @@ export function Home() {
           placeholder="descripción de la tarea"
         />
         </div>
-        /* aqui viene el cheklist */
+        {/* aqui va el checkList */}
         <div className="form-check col-2 ms-5 mt-2" >
         <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
         <label className="form-check-label" for="flexCheckIndeterminate">
