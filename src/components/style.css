@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: var(--colorBackGround);
+    background-image: radial-gradient(circle at 20.87% -0.45%, #0097be 0, #0096cc 5%, #0095d9 10%, #0094e4 15%, #0092ed 20%, #008ff5 25%, #008cfa 30%, #0088fd 35%, #0083fe 40%, #007dfc 45%, #1077f8 50%, #5970f2 55%, #7c68ea 60%, #965fe0 65%, #ab56d4 70%, #bd4cc7 75%, #cb42b8 80%, #d638a9 85%, #df2f99 90%, #e52989 95%, #e92579 100%);
 }
 
 .btn-agregar {

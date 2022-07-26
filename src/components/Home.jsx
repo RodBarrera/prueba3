@@ -47,9 +47,9 @@ export function Home() {
   return (
     <Fragment>
       <h1 className="container m-4">Notas Adhesivas!!</h1>
-
+        <div className="row" >
       <div className="input-group">
-        <div className="col-xs-12  col-md-6 col-lg-3" >
+        <div className="col-12  col-md-6 col-lg-3 " >
 
         <input
           type="text"
@@ -59,7 +59,7 @@ export function Home() {
         />
         </div>
 
-        <div className="col-xs-12  col-md-6 col-lg-3 ms-4" >
+        <div className="col-12  col-md-6 col-lg-3 ms-4" >
 
         <input
           type="text"
@@ -69,7 +69,7 @@ export function Home() {
         />
         </div>
         {/* aqui va el checkList */}
-        <div className="form-check col-2 ms-5 mt-2" >
+        <div className="form-check col-12 col-md-6 col-lg-2 ms-5 mt-2" >
         <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
         <label className="form-check-label" for="flexCheckIndeterminate">
             Importante!
@@ -77,14 +77,14 @@ export function Home() {
 
         </div>
 
-        <div className="col-3 d-grid gap-2 col-3 mx-auto" >
+        <div className="col-12 col-md-6 col-lg-3 d-grid gap-2 col-3 mx-auto" >
 
         {/* Boton agregar */}
         <button className="btn btn-dark ms-2" onClick={agregarTarea}>
          agregar 
         </button>
         </div>
-
+        </div>
 
       </div>
 
